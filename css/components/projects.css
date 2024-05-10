@@ -1,0 +1,59 @@
+.projects {
+    margin-bottom: 16rem;
+    scroll-margin-top: 15rem;
+}
+
+.projects .projects__content {
+    max-width: 56rem;
+    text-align: center;
+    margin: 0 auto 6rem;
+}
+
+.projects ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 10rem;
+}
+
+.projects ul li .image img {
+    background-color: var(--black);
+    padding: 1rem;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.4rem 1em rgba(255, 255, 255, 0.2);
+    margin: 0 auto;
+}
+
+.projects ul li .projects__info h3 {
+    text-align: center;
+}
+
+.projects ul li .projects__info h4{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.projects ul li .projects__info h4 b{
+    color: var(--hover-color);
+}
+
+.projects ul li .projects__info p{
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 2rem 0  1rem;
+    word-break: break-all;
+}
+
+.projects ul li div .link{
+    font-size: 1.6rem;
+    text-align:  right;
+}
+
+.projects ul li div .link a:hover{
+    color: var(--hover-color);
+}
